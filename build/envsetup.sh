@@ -18,9 +18,9 @@ function mk_timer()
     local ncolors=$(tput colors 2>/dev/null)
     echo
     if [ $ret -eq 0 ] ; then
-        echo -n "#### make completed successfully "
+        echo -n "#### Shit compiled fagg!! "
     else
-        echo -n "#### make failed to build some targets "
+        echo -n "#### You are fucking Derp check above for ERROR "
     fi
     if [ $hours -gt 0 ] ; then
         printf "(%02g:%02g:%02g (hh:mm:ss))" $hours $mins $secs
