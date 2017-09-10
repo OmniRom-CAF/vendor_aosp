@@ -14,11 +14,11 @@
 # limitations under the License.
 
 #JDCTeam versioning
-ifndef JDC_BUILD_TYPE
-    JDC_BUILD_TYPE := ALPHA
+ifndef DERP_BUILD_TYPE
+    DERP_BUILD_TYPE := WIP
 endif
 
-JDC_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(JDC_BUILD_TYPE)
+DERP_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(DERP_BUILD_TYPE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.jdc.version=$(JDC_VERSION)
+    ro.derp.version=$(DERP_VERSION)
